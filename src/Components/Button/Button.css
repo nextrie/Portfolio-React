@@ -1,10 +1,7 @@
-.buttonLink
-{
-    text-decoration: none;
-}
-
 .buttonContainer
 {
+    margin: 0;
+    padding: 0;
     border: 1px solid #76F7BF;
     width: 125px;
     padding: 10px;
@@ -12,4 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.buttonContainer:hover
+{
+    cursor: pointer;
 }

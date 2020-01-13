@@ -25,7 +25,7 @@ export default function NavBar()
                         {"</Projects>"}
                     </a>
                     <a className="navLink">
-                        <Button title="</Contact Me>" link="#"/>
+                        <Button title="</Contact Me>" link="mailto:pro@alexandregerez.com"/>
                     </a>
                 </div>
             </div>

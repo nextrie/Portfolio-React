@@ -4,11 +4,9 @@ import "./Button.css";
 export default function Button(props)
 {
     return (
-        <a className="buttonLink" href={getButtonLink(props)}>
-            <div className="buttonContainer coloredText">
-                {getButtonTitle(props)}
-            </div>
-        </a>
+        <div className="buttonContainer coloredText" onClick={() => {document.location.href = getButtonLink(props)}}>
+            {getButtonTitle(props)}
+        </div>
     );
 }
 
@@ -16,7 +14,7 @@ function getButtonLink(props)
 {
     if (props.link)
         return props.link;
-    return "#";
+    return "err";
 }
 
 function getButtonTitle(props)
