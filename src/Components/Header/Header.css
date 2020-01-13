@@ -1,0 +1,66 @@
+.headerContainer
+{
+    position: relative;
+    height: calc(100vh - 75px);
+    width: 100%;
+    overflow: hidden;
+}
+
+.headerImg
+{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: block;
+    height: auto;
+    width: 37.5%;
+}
+
+.headerContent
+{
+    width: 100%;
+    padding-top: 150px;
+    height: calc(100% - 150px);
+    overflow: hidden;
+}
+
+.headerTitle
+{
+    font-weight: normal;
+    padding-bottom: 10%;
+}
+
+.headerDesc
+{
+    font-size: 3.65vw;
+    padding-bottom: 5%;
+}
+
+.headerText
+{
+    width: 60%;
+    font-size: 2vw;
+    padding-bottom: 6.5%;
+}
+
+.pageDownContainer
+{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+    animation: bounce 1.2s ease infinite;
+}
+
+.pageDown
+{
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes bounce{
+    from {bottom: 15px;}
+    50%  {bottom: 30px;}
+    to   {bottom: 15px;}
+}

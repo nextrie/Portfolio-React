@@ -1,0 +1,46 @@
+.navBarContainer
+{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D1B39;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.16);
+}
+
+.navBarContent
+{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2
+{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.navLinks
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    min-width: 600px;
+    overflow: hidden;
+}
+
+.navLink
+{
+    margin: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
