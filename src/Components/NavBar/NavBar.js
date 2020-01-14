@@ -46,7 +46,7 @@ export default class NavBar extends React.Component
                             {"</Projects>"}
                         </a>
                         <a className="navLink">
-                            <Button title="</Contact Me>" link="mailto:pro@alexandregerez.com"/>
+                            <Button title="Contact Me" link="mailto:pro@alexandregerez.com"/>
                         </a>
                     </div>
                 </div>
