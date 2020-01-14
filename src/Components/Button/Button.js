@@ -14,7 +14,7 @@ function getButtonLink(props)
 {
     if (props.link)
         return props.link;
-    return "err";
+    return "#";
 }
 
 function getButtonTitle(props)
