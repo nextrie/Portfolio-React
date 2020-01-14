@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px)
+{
+    .navLinks
+    {
+        transition: .5s ease-in-out;
+        padding-top: 50px;
+        z-index: 10;
+        flex-direction: column;
+        position: absolute;
+        justify-content: flex-start;
+        align-items: center;
+        right: -400px;
+        width: 40%;
+        height: calc(100vh - 125px);
+        top: 75px;
+        background-color: rgb(10, 22, 49);
+        width: 30%;
+        max-width: 400px;
+        min-width: 275px;
+        box-shadow: 0 10px 6px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.16);
+    }
+
+    .navResponsiveButton
+    {
+        display: unset;
+        overflow: hidden;
+    }
+
+    .navResponsiveButton:hover
+    {
+        cursor: pointer;
+    }
+}

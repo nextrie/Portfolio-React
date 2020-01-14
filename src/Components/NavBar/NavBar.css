@@ -40,6 +40,19 @@
     margin: 20px;
 }
 
+.navResponsiveButton
+{
+    display: none;
+    height: 35px;
+    width: 35px;
+}
+
+.navResponsiveButton img
+{
+    height: 100%;
+    width: 100%;
+}
+
 a
 {
     text-decoration: none;
