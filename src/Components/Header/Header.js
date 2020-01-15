@@ -12,7 +12,7 @@ import Button from "../Button/Button.js";
 export default function Header()
 {
     return (
-        <div className="headerContainer">
+        <div id="headerContainer" className="headerContainer">
             <img className="headerImg" alt="floatingElement" src={FloatingReact} />
             <div className="headerContent">
                 <h1 className="coloredText headerTitle">Hey, I'm Alex,</h1>
