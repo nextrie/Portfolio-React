@@ -1,0 +1,11 @@
+.pageTitleContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pageCount
+{
+  margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px)
+{
+
+    .presentationContainer
+    {
+        flex-direction: column;
+    }
+
+    .profilePicture
+    {
+        height: 100px;
+        width: 100px;
+    }
+
+    .presentationTextContainer
+    {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+}

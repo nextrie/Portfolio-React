@@ -1,0 +1,29 @@
+.aboutContainer
+{
+    margin-top: 30px;
+    height: calc(100vh - 30px);
+    width: 100%;
+}
+
+.presentationContainer
+{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profilePicture
+{
+    height: auto;
+    width: 15%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.presentationTextContainer
+{
+    width: 60%;
+    font-size: 21px;
+}
