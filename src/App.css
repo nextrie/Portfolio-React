@@ -1,6 +1,7 @@
 *
 {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .appContainer
@@ -60,6 +61,10 @@
   font-weight: bold;
 }
 
+.underline
+{
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 1000px)
 {

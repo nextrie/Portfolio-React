@@ -22,7 +22,9 @@ export default function Header()
                 </h1>
                 <Button title="Contact Me" link="mailto:pro@alexandregerez.com" />
                 <div className="pageDownContainer">
-                    <img className="pageDown" alt="pageDown" src={PageDown} />
+                    <a href="#aboutContainer">
+                        <img className="pageDown" alt="pageDown" src={PageDown} />
+                    </a>
                 </div>
             </div>
         </div>
