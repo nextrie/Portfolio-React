@@ -21,8 +21,8 @@ export default function Projects()
                     description="Kick is a phone app based on the ionic framework and angular. My role in this project was to create from scratch the app website using React."
                     tags={["React.JS,", "HTML,", "CSS"]}
                     img={Kick}
-                    github={"null"}
-                    website={"null"}
+                    github={"https://github.com/nextrie/KickApp-Web"}
+                    website={"http://kickapp.fr"}
                 />
             </div>
             <div className="project">

@@ -20,10 +20,10 @@ export default class Project extends React.Component
 
     getLink(props)
     {
-        if (!props.link)
+        if (!props.website)
             return ;
         return (
-            <a target="_blank" href={props.link}>
+            <a target="_blank" href={props.website}>
                 <img src={Link} alt='link'/>
             </a>
         );
