@@ -13,7 +13,7 @@ export default function About()
 {
     return (
         <div id="aboutContainer" className="aboutContainer">
-            <PageTitle />
+            <PageTitle pageTitle="About_Me" pageCount="1"/>
             <div className="presentationContainer">
                 <img className="profilePicture" src={ProfilePicture} />
                 <div className="presentationTextContainer regularText">
