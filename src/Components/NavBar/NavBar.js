@@ -36,13 +36,13 @@ export default class NavBar extends React.Component
                         <img src={MenuIcon} />
                     </a>
                     <div ref="navMenu" className="navLinks regularText normal">
-                        <a href="#headerContainer" className="navLink regularText">
+                        <a href="#headerContainer" onClick={() => {this.displayNavBar(this.refs.navMenu)}} className="navLink regularText">
                             {"</Home>"}
                         </a>
-                        <a href="#aboutContainer" className="navLink regularText">
+                        <a href="#aboutContainer" onClick={() => {this.displayNavBar(this.refs.navMenu)}} className="navLink regularText">
                             {"</About_Me>"}
                         </a>
-                        <a href="#projectsContainer" className="navLink regularText">
+                        <a href="#projectsContainer" onClick={() => {this.displayNavBar(this.refs.navMenu)}} className="navLink regularText">
                             {"</Projects>"}
                         </a>
                         <a className="navLink">

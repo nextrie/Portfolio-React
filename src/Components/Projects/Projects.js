@@ -9,7 +9,7 @@ import PageTitle from "../PageTitle/PageTitle.js";
 export default function Projects()
 {
     return (
-        <div className="projectsContainer">
+        <div id="projectsContainer" className="projectsContainer">
             <PageTitle direction="left" pageTitle="Featured_Projects" pageCount="2" />
         </div>
     );
