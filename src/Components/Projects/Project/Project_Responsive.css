@@ -1,0 +1,23 @@
+.projectContainer
+{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectText
+{
+    width: 80%;
+    text-align: center;
+}
+
+.projectInteractive
+{
+    width: 100%;
+    align-items: center;
+}
+
+.projectInteractions
+{
+    width: 80%;
+}

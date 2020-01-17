@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Project.css";
+import "./Project_Responsive.css";
 
 //Images
 import Link from "../../../assets/icons/link.png";
