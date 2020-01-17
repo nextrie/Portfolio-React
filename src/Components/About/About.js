@@ -20,7 +20,12 @@ export default function About()
                     Hello! I'm Alex, a
                     <span className="bold coloredText"> fullstack </span>
                     web developer based in 
-                    <span className="bold coloredText"> Paris</span>. I enjoy to learn new technologies to build fast, beautiful and secured web apps. I develop useful platforms during my spare time so that i can practice my <span className="bold coloredText"> coding skills </span>and make people's daily routine easier. You can check out some of my work below and even check my latest releases on <span className="bold pageTitle"> github</span> !
+                    <span className="bold coloredText"> Paris</span>. I enjoy to learn new technologies to build fast, 
+                    beautiful and secured web apps. I develop useful platforms during my spare time so that i can practice my 
+                    <span className="bold coloredText"> coding skills </span>and make people's daily routine easier. 
+                    You can check out some of my work below and even check my latest releases on
+                    <span> </span>
+                    <a target="_blank" href="https://github.com/nextrie" className="bold pageTitle underline">GitHub</a> !
                 </div>
             </div>
             <div className="skillsContainer">
