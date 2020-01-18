@@ -10,6 +10,7 @@ import Project from "./Project/Project.js";
 //Images
 import Kick from "../../assets/images/kick.png";
 import DiscordInvites from "../../assets/images/discordinvitesv2.png";
+import QGF from "../../assets/images/quickgamefinder.png";
 
 export default function Projects()
 {
@@ -37,7 +38,15 @@ export default function Projects()
                 />
             </div>
             <div className="project">
-            
+                <Project 
+                        title="QuickGameFinder"
+                        description="
+                        QuickGameFinder is an Electron.JS based platform designed for gamers. I built this project in my spare time so that players never have to stay in the random matchmaking systems of games and choose their team before starting a game."
+                        tags={["Electron.JS,", "Node.JS,", "HTML,", "CSS"]}
+                        img={QGF}
+                        github={"https://github.com/nextrie/quickgamefinder-electron"}
+                        website={null}
+                />
             </div>
         </div>
     );

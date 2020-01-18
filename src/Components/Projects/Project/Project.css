@@ -40,10 +40,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: .7;
+    transition: .3s ease-in-out;
+}
+
+.projectBannerContainer:hover
+{
+    opacity: 1;
 }
 
 .projectBanner
 {
+    border-radius: 5px;
     width: 100%;
     height: 100%;
     border: 2px solid white;
