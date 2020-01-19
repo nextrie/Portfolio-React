@@ -16,8 +16,13 @@ export default function Card_Project(props)
                     {props.description}
                 </h4>
                 <div className="projectLinks">
-                    {getGithub(props)}
-                    {getLink(props)}
+                    <div className="coloredText">
+                        {props.tags ? props.tags.map(tag => { return tag + " " }) : ''}
+                    </div>
+                    <div>
+                        {getGithub(props)}
+                        {getLink(props)}
+                    </div>
                 </div>
             </div>
         </div>

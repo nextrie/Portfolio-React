@@ -54,11 +54,17 @@ export default function Projects()
                 <div className="secondaryProjects">
                     <Card_Project 
                         title="MineMonitor"
-                        description="lodwadjwpadw iawjdoiawjd aw aiowjd oiwajd oaw doojdw"
-                        github={"test"}
+                        description="MineMonitor is an Electron.JS based software i created in my spare time so that game servers owner can monitor in realtime their server activity."
+                        tags={["Electron.JS,", "Node.JS,", "HTML,", "CSS"]}
+                        github={"https://github.com/nextrie/mine_monitor"}
                         website={"test"}
                     />
-                    <Card_Project />
+                    <Card_Project 
+                       title="YTAH"
+                       description="YTAH is a remote administration tool written in c# allowing to control any computer the software is installed on. This project taught me a lot on cybersecurity and network oriented programmation."
+                       tags={["C#,", ".NET,", "TCP & UDP,", "Security"]}
+                       github={"https://github.com/nextrie/YTAH-Remote-Administration-Tool"}
+                    />
                     <Card_Project />
                     <Card_Project />
                 </div>
