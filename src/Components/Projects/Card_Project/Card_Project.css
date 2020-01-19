@@ -1,0 +1,42 @@
+.cardProjectContainer
+{
+    width: 45%;
+    min-width: 400px;
+    max-width: 600px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(19, 38, 78);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardProjectContent
+{
+    width: 95%;
+    height: 90%;
+    position: relative;
+}
+
+.cardProjectDescription
+{
+    margin-top: 20px;
+}
+
+.projectLinks
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.projectLinks img
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}

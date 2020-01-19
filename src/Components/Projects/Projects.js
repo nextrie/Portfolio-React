@@ -6,6 +6,7 @@ import "./Projects_Responsive.css";
 //Components
 import PageTitle from "../PageTitle/PageTitle.js";
 import Project from "./Project/Project.js";
+import Card_Project from "./Card_Project/Card_Project.js";
 
 //Images
 import Kick from "../../assets/images/kick.png";
@@ -47,6 +48,20 @@ export default function Projects()
                         github={"https://github.com/nextrie/quickgamefinder-electron"}
                         website={null}
                 />
+            </div>
+            <div className="secondaryProjectsContainer">
+                <h2 className="title regularText">More of my projects</h2>
+                <div className="secondaryProjects">
+                    <Card_Project 
+                        title="MineMonitor"
+                        description="lodwadjwpadw iawjdoiawjd aw aiowjd oiwajd oaw doojdw"
+                        github={"test"}
+                        website={"test"}
+                    />
+                    <Card_Project />
+                    <Card_Project />
+                    <Card_Project />
+                </div>
             </div>
         </div>
     );
