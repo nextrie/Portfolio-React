@@ -41,8 +41,7 @@ export default function Projects()
             <div className="project">
                 <Project 
                         title="QuickGameFinder"
-                        description="
-                        QuickGameFinder is an Electron.JS based platform designed for gamers. I built this project in my spare time so that players never have to stay in the random matchmaking systems of games and choose their team before starting a game."
+                        description="QuickGameFinder is an Electron.JS based platform designed for gamers. I built this project in my spare time so that players never have to stay in the random matchmaking systems of games and choose their team before starting a game."
                         tags={["Electron.JS,", "Node.JS,", "HTML,", "CSS"]}
                         img={QGF}
                         github={"https://github.com/nextrie/quickgamefinder-electron"}
@@ -53,11 +52,16 @@ export default function Projects()
                 <h2 className="title regularText">More of my projects</h2>
                 <div className="secondaryProjects">
                     <Card_Project 
+                        title="KickApp"
+                        description="Kick is a phone app based on the Ionic framework and Angular. After i created the app website using React, i assisted the team on the app itself using ionic and angular. The app source code is private."
+                        tags={["Angular,", "Ionic,", "HTML,", "SASS"]}
+                        github={"https://github.com/nextrie/mine_monitor"}
+                    />
+                    <Card_Project 
                         title="MineMonitor"
                         description="MineMonitor is an Electron.JS based software i created in my spare time so that game servers owner can monitor in realtime their server activity."
                         tags={["Electron.JS,", "Node.JS,", "HTML,", "CSS"]}
                         github={"https://github.com/nextrie/mine_monitor"}
-                        website={"test"}
                     />
                     <Card_Project 
                        title="YTAH"
@@ -65,8 +69,18 @@ export default function Projects()
                        tags={["C#,", ".NET,", "TCP & UDP,", "Security"]}
                        github={"https://github.com/nextrie/YTAH-Remote-Administration-Tool"}
                     />
-                    <Card_Project />
-                    <Card_Project />
+                    <Card_Project 
+                        title="Portfolio"
+                        description="This is the website you are currently visiting. Based on React, this website regroups all of my projects."
+                        tags={["React.JS,", "HTML,", "CSS"]}
+                        github={"https://github.com/nextrie/YTAH-Remote-Administration-Tool"}                 
+                    />
+                    <Card_Project 
+                        title="Vyper Trading Solutions"
+                        description="This is a website landing page that i built to represent a trading platform. This project is in an unfinished state."
+                        tags={["HTML,", "CSS"]}
+                        website={"https://vypertrading.netlify.com"}
+                    />
                 </div>
             </div>
         </div>

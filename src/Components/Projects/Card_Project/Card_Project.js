@@ -16,7 +16,7 @@ export default function Card_Project(props)
                     {props.description}
                 </h4>
                 <div className="projectLinks">
-                    <div className="coloredText">
+                    <div className="regularText">
                         {props.tags ? props.tags.map(tag => { return tag + " " }) : ''}
                     </div>
                     <div>
