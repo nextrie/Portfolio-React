@@ -55,7 +55,6 @@ export default function Projects()
                         title="KickApp"
                         description="Kick is a phone app based on the Ionic framework and Angular. After i created the app website using React, i assisted the team on the app itself using ionic and angular. The app source code is private."
                         tags={["Angular,", "Ionic,", "HTML,", "SASS"]}
-                        github={"https://github.com/nextrie/mine_monitor"}
                     />
                     <Card_Project 
                         title="MineMonitor"

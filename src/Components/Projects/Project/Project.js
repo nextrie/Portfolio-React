@@ -48,7 +48,7 @@ export default class Project extends React.Component
                     </h3>
                 </div>
                 <div className="projectInteractive">
-                    <a target="_blank" className="projectBannerContainer" href={this.props.website}>
+                    <a target="_blank" className="projectBannerContainer" href={this.props.website ? this.props.website : this.props.github}>
                         <img className="projectBanner" src={this.props.img} alt="projectImg" />
                     </a>
                     <div className="projectInteractions">
