@@ -5,6 +5,7 @@ import "./Header_Responsive.css";
 //Images
 import FloatingReact from "../../assets/images/react.svg";
 import PageDown from "../../assets/icons/down.png";
+import PDF from "../../assets/resume.pdf";
 
 //Components
 import Button from "../Button/Button.js";
@@ -20,7 +21,7 @@ export default function Header()
                 <h1 className="regularText light headerText">
                     I build your platform using modern technologies like React, Node.JS and more.
                 </h1>
-                <Button title="Contact Me" link="mailto:pro@alexandregerez.com" />
+                <Button title="My Resume" link={PDF} />
                 <div className="pageDownContainer">
                     <a href="#aboutContainer">
                         <img className="pageDown" alt="pageDown" src={PageDown} />
