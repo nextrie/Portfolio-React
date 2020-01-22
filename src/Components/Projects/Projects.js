@@ -72,7 +72,7 @@ export default function Projects()
                         title="Portfolio"
                         description="This is the website you are currently visiting. Based on React, this website regroups all of my projects."
                         tags={["React.JS,", "HTML,", "CSS"]}
-                        github={"https://github.com/nextrie/YTAH-Remote-Administration-Tool"}                 
+                        github={"https://github.com/nextrie/Portfolio-React"}                 
                     />
                     <Card_Project 
                         title="Vyper Trading Solutions"
