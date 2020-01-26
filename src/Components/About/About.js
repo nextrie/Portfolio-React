@@ -15,7 +15,7 @@ export default function About()
         <div id="aboutContainer" className="aboutContainer">
             <PageTitle pageTitle="About_Me" pageCount="1"/>
             <div className="presentationContainer">
-                <img className="profilePicture" src={ProfilePicture} />
+                <img className="profilePicture" alt="profilePicture" src={ProfilePicture} />
                 <div className="presentationTextContainer regularText">
                     Hello! I'm Alex, a
                     <span className="bold coloredText"> fullstack </span>
