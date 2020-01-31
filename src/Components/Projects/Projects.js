@@ -35,7 +35,7 @@ export default function Projects()
                     tags={["jQuery,", "HTML,", "CSS"]}
                     img={DiscordInvites}
                     github={null}
-                    website={"https://discordinvites.net"}
+                    website={"https://i.ibb.co/5Ljj6yZ/dinvites.png"}
                 />
             </div>
             <div className="project">
